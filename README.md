@@ -1,4 +1,4 @@
-# BukuHub - Sistem Perpustakaan QR Code
+# LibraryGlobal - Sistem Perpustakaan QR Code
 
 [![Continuous Integration](https://github.com/ikhsan3adi/sistem-perpustakaan-qr-code/actions/workflows/ci.yml/badge.svg)](https://github.com/ikhsan3adi/sistem-perpustakaan-qr-code/actions/workflows/ci.yml)
 

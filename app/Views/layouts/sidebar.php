@@ -73,7 +73,7 @@ if (auth()->user()->inGroup('superadmin') ?? false) {
     <div class="brand-logo d-flex align-items-center justify-content-between">
       <div class="pt-4 mx-auto">
         <a href="<?= base_url(); ?>">
-          <h2>Buku<span class="text-primary">Hub</span></h2>
+          <h2>Library<span class="text-primary">Global</span></h2>
         </a>
       </div>
       <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">

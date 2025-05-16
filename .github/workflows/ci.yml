@@ -22,7 +22,7 @@ jobs:
           # The MySQL docker container requires these environment variables to be set
           # so we can create and migrate the test database.
           # See: https://hub.docker.com/_/mysql
-          MYSQL_DATABASE: db_book_library_test
+          MYSQL_DATABASE: book_library
           MYSQL_ROOT_PASSWORD: root
         ports:
           # Opens port 3306 on service container and host

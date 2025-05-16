@@ -53,10 +53,10 @@ class AuthGroups extends ShieldAuthGroups
         //     'title'       => 'Developer',
         //     'description' => 'Site programmers.',
         // ],
-        // 'user' => [
-        //     'title'       => 'User',
-        //     'description' => 'General users of the site. Often customers.',
-        // ],
+        'user' => [
+        'title'       => 'User',
+        'description' => 'General users of the site. Often customers.',
+        ],
         // 'beta' => [
         //     'title'       => 'Beta User',
         //     'description' => 'Has access to beta-level features.',

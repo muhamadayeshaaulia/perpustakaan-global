@@ -108,95 +108,19 @@ if (session()->getFlashdata('msg')) : ?>
           </div>
         </div>
       </div>
-      <div class="col-12">
-        <div class="row">
-          <div class="col-12 col-sm-6 col-xl-4">
-            <div class="card" style="height: 180px;">
-              <div class="card-body">
-                <h2>
-                  <i class="ti ti-book"></i>
-                </h2>
-                <h5>Buku dipinjam: </h5>
-                <h4>
-                  <?= $totalBooksLent; ?>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-xl-4">
-            <div class="card" style="height: 180px;">
-              <div class="card-body">
-                <h2>
-                  <i class="ti ti-arrows-exchange"></i>
-                </h2>
-                <h5>Transaksi peminjaman: </h5>
-                <h4>
-                  <?= $loanCount; ?>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-xl-4">
-            <div class="card" style="height: 180px;">
-              <div class="card-body">
-                <h2>
-                  <i class="ti ti-check"></i>
-                </h2>
-                <h5>Transaksi pengembalian: </h5>
-                <h4>
-                  <?= $returnCount; ?>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-xl-4">
-            <div class="card" style="height: 180px;">
-              <div class="card-body">
-                <h2>
-                  <i class="ti ti-calendar-time"></i>
-                </h2>
-                <h5>Jumlah terlambat: </h5>
-                <h4>
-                  <?= $lateCount; ?>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-xl-4">
-            <div class="card" style="height: 180px;">
-              <div class="card-body">
-                <h2>
-                  <i class="ti ti-report-money"></i>
-                </h2>
-                <h5>Denda belum dibayar: </h5>
-                <h4>
-                  Rp<?= $unpaidFines; ?>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-xl-4">
-            <div class="card" style="height: 180px;">
-              <div class="card-body">
-                <h2>
-                  <i class="ti ti-cash"></i>
-                </h2>
-                <h5>Denda dibayar: </h5>
-                <h4>
-                  Rp<?= $paidFines; ?>
-                </h4>
-              </div>
+      <div class="col-12 col-lg-5">
+        <div class="card">
+          <div class="card-body">
+            <p class="text-center mb-4" style="line-break: anywhere;">UID : <?= $member['uid']; ?></p>
+            <div id="qr-code" class="m-auto"></div>
+            <div class="text-center mt-3">
+              <!-- Link untuk mendownload QR Code -->
+              <a href="<?= base_url(MEMBERS_QR_CODE_URI . $member['qr_code']); ?>" download="QR_Code_<?= $member['uid']; ?>" class="btn btn-success">
+                <i class="ti ti-download"></i> Download QR Code
+              </a>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-lg-5">
-    <div class="card">
-      <div class="card-body">
-        <p class="text-center mb-4" style="line-break: anywhere;">UID : <?= $member['uid']; ?></p>
-        <div id="qr-code" class="m-auto"></div>
       </div>
     </div>
   </div>
