@@ -1,7 +1,5 @@
 # LibraryGlobal - Sistem Perpustakaan QR Code
 
-[![Continuous Integration](https://github.com/muhamadayeshaaulia/perpustakaan-global/actions/runs/15076485043g)](https://github.com/muhamadayeshaaulia/perpustakaan-global/actions)
-
 ![Preview](https://github.com/muhamadayeshaaulia/perpustakaan-global/blob/main/screenshots/home.jpg)
 
 > [!NOTE]
@@ -88,10 +86,6 @@ password : superadmin
 
 Kami menerima kontribusi dari komunitas terbuka untuk meningkatkan aplikasi ini. Jika Anda menemukan masalah, bug, atau memiliki saran untuk peningkatan, silakan buat issue baru dalam repositori ini atau ajukan pull request.
 
-## Lisensi
-
-[![GitHub license](https://github.com/muhamadayeshaaulia/perpustakaan-global)](https://github.com/muhamadayeshaaulia/perpustakaan-global?tab=GPL-3.0-1-ov-file)
-
 ## Authors
 
-- [@ikhsan3adi](https://github.com/muhamadayeshaaulia)
+- [@Yesha.dev](https://github.com/muhamadayeshaaulia)
