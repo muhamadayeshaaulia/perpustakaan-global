@@ -352,4 +352,11 @@ class BooksController extends ResourceController
         session()->setFlashdata(['msg' => 'Book deleted successfully']);
         return redirect()->to('admin/books');
     }
+   public function requestInfo()
+{
+    // Simulasikan halaman "tidak tersedia"
+    return view('books/request_info');
+}
+
+
 }

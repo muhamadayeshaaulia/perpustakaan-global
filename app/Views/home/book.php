@@ -51,10 +51,10 @@
         <div class="col-sm-6 col-xl-3">
           <div class="card overflow-hidden rounded-2" style="height: 375px;">
             <div class="position-relative">
-              <a href="<?= base_url("admin/books/{$book['slug']}"); ?>">
-                <div class="card-img-top rounded-0" id="coverBook<?= $book['id']; ?>">
-                </div>
-              </a>
+              <a href="<?= base_url("books/request"); ?>">
+            <div class="card-img-top rounded-0" id="coverBook<?= $book['id']; ?>">
+            </div>
+          </a>
             </div>
             <div class="card-body pt-3 p-4">
               <h6 class="fw-semibold fs-4">

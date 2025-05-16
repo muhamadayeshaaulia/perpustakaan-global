@@ -33,6 +33,10 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/book', 'Home::book');
+$routes->get('books/request', 'Books\BooksController::requestInfo');
+
+
+
 
 service('auth')->routes($routes);
 
@@ -63,6 +67,7 @@ $routes->group('admin', ['filter' => 'session'], static function (RouteCollectio
         $routes->post('', 'Users\RegisterController::registerAction');
     });
     $routes->resource('users', ['controller' => 'Users\UsersController', 'filter' => 'group:superadmin']);
+    
 });
 
 /*
