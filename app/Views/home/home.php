@@ -2,6 +2,22 @@
 
 <?= $this->section('head') ?>
 <title>Home</title>
+<style>
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  .whatsapp-icon img {
+    width: 40px;
+    height: 40px;
+  }
+</style>
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
@@ -10,7 +26,7 @@
   <div class="col-lg-6 mx-auto">
     <p class="lead mb-4">
       Temukan buku-buku menarik untuk memperluas pengetahuan dan imajinasi Anda.
-      BukuHub adalah teman setia pencinta buku dan pembelajar di mana saja, kapan saja.
+      LibraryGlobal adalah teman setia pencinta buku dan pembelajar di mana saja, kapan saja.
     </p>
     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
       <!--<a href="<?= base_url('login'); ?>" class="btn btn-primary btn-lg px-4 me-sm-3">Login petugas</a>-->
@@ -55,4 +71,13 @@
     </div>
   </div>
 </div>
+
+<!-- WhatsApp Icon -->
+<div class="whatsapp-icon">
+  <a href="https://wa.me/6285174145156?text=Halo%20admin%2C%20saya%20mau%20pinjam%20buku.%20Bagaimana%20ya%20caranya%3F" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+</div>
+
+
 <?= $this->endSection() ?>
