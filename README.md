@@ -1,8 +1,8 @@
 # LibraryGlobal - Sistem Perpustakaan QR Code
 
-[![Continuous Integration](https://github.com/ikhsan3adi/sistem-perpustakaan-qr-code/actions/workflows/ci.yml/badge.svg)](https://github.com/ikhsan3adi/sistem-perpustakaan-qr-code/actions/workflows/ci.yml)
+[![Continuous Integration](https://github.com/muhamadayeshaaulia/perpustakaan-global/actions/runs/15076485043g)](https://github.com/muhamadayeshaaulia/perpustakaan-global/actions)
 
-![Preview](https://github.com/ikhsan3adi/sistem-perpustakaan-qr-code/raw/main/screenshots/home.png)
+![Preview](https://github.com/muhamadayeshaaulia/perpustakaan-global/blob/main/screenshots/home.jpg)
 
 > [!NOTE]
 >
@@ -45,7 +45,7 @@
 composer install
 ```
 
-- Buat database `db_book_library` di phpMyAdmin / mysql
+- Buat database `book_library` di phpMyAdmin / mysql
 - Penting ⚠️. Jalankan migrasi database untuk membuat struktur tabel yang diperlukan. Ketikkan perintah berikut di terminal:
 
 ```shell
@@ -88,15 +88,10 @@ password : superadmin
 
 Kami menerima kontribusi dari komunitas terbuka untuk meningkatkan aplikasi ini. Jika Anda menemukan masalah, bug, atau memiliki saran untuk peningkatan, silakan buat issue baru dalam repositori ini atau ajukan pull request.
 
-## Donasi
-
-[![Donate paypal](https://img.shields.io/badge/Donate-PayPal-green.svg?style=for-the-badge)](https://paypal.me/xannxett?country.x=ID&locale.x=en_US)
-[![Donate saweria](https://img.shields.io/badge/Donate-Saweria-red?style=for-the-badge&link=https%3A%2F%2Fsaweria.co%2Fxiboxann)](https://saweria.co/xiboxann)
-
 ## Lisensi
 
-[![GitHub license](https://img.shields.io/github/license/ikhsan3adi/sistem-perpustakaan-qr-code?style=for-the-badge)](https://github.com/ikhsan3adi/sistem-perpustakaan-qr-code/raw/main/LICENSE)
+[![GitHub license](https://github.com/muhamadayeshaaulia/perpustakaan-global)](https://github.com/muhamadayeshaaulia/perpustakaan-global?tab=GPL-3.0-1-ov-file)
 
 ## Authors
 
-- [@ikhsan3adi](https://www.github.com/ikhsan3adi)
+- [@ikhsan3adi](https://github.com/muhamadayeshaaulia)
